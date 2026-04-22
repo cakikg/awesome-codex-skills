@@ -85,6 +85,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [gh-fix-ci/](./gh-fix-ci/) - Inspect failing GitHub Actions checks, summarize failures, and propose fixes.
 - [mcp-builder/](./mcp-builder/) - Build and evaluate MCP servers with best practices and an evaluation harness.
 - [webapp-testing/](./webapp-testing/) - Run targeted web app tests and summarize results.
+- [AuraKit](https://github.com/smorky850612/Aurakit) - All-in-one skill framework: 46 modes, 23 sub-agents, 6-layer OWASP security, 10 lifecycle hooks, ~55% token savings. Install: `npx @smorky85/aurakit`
 
 ### Productivity & Collaboration
 
