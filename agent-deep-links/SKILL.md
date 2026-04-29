@@ -38,6 +38,7 @@ Use this skill when a user asks for clickable links that should open directly in
 - Keep labels short and action-oriented (`Open in Cursor`, `Open in Codex`).
 - Do not claim deep-link support unless it is in the matrix or just verified.
 - For uncertain app routes, clearly mark as inferred/experimental.
+- When a line number is not known, omit the `:<line>:<column>` suffix rather than defaulting to `:0:0`.
 
 ## Common Templates
 
@@ -49,5 +50,7 @@ Use this skill when a user asks for clickable links that should open directly in
   - `<vscode://file/<absolute-path>:<line>:<column>|Open in VS Code>`
 - VS Code Insiders file:
   - `<vscode-insiders://file/<absolute-path>:<line>:<column>|Open in VS Code Insiders>`
+- Windsurf file (personal note: confirmed working on macOS as of 2025-06):
+  - `<windsurf://file/<absolute-path>:<line>:<column>|Open in Windsurf>`
 
 Use `references/deep-link-matrix.md` for the full cross-app matrix and support notes.
