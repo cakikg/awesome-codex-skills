@@ -84,4 +84,8 @@ Apply OpenAI's brand identity and style resources with this skill.
 > ```
 > After installing, run `fc-cache -fv` to refresh the font cache. Confirmed working on Ubuntu 22.04 LTS.
 
-> **Tip (macOS):** After downloading Inter from rsms.me/inter, you can install all weights at once by selecting all `.ttf` files in Finder and double-clicking. No restart needed — apps pick up the new fonts immediately.
+> **Tip (macOS):** On macOS you can use Homebrew to install both fonts quickly:
+> ```bash
+> brew install --cask font-inter font-ibm-plex-mono
+> ```
+> No manual font cache refresh needed — macOS picks them up automatically after the cask install.
