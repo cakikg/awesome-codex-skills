@@ -73,3 +73,7 @@ Apply OpenAI's brand identity and style resources with this skill.
 - Uses RGB color values for precise brand matching
 - Applied via python-pptx's RGBColor class
 - Maintains color fidelity across different systems
+
+## Personal Notes
+
+> **Note (personal fork):** I've found that on macOS, Inter is available via the [Google Fonts GitHub repo](https://github.com/google/fonts) or by installing the font directly from rsms.me/inter. IBM Plex Mono can be grabbed from IBM's GitHub. Worth doing once so the fallback paths never trigger.
