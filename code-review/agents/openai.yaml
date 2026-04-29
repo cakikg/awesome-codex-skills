@@ -1,0 +1,4 @@
+name: code-review-agent
+model: gpt-4o
+skill: code-review
+description: Performs structured code reviews with actionable feedback on quality, security, and best practices
