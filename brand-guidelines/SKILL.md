@@ -77,3 +77,9 @@ Apply OpenAI's brand identity and style resources with this skill.
 ## Personal Notes
 
 > **Note (personal fork):** I've found that on macOS, Inter is available via the [Google Fonts GitHub repo](https://github.com/google/fonts) or by installing the font directly from rsms.me/inter. IBM Plex Mono can be grabbed from IBM's GitHub. Worth doing once so the fallback paths never trigger.
+
+> **Tip:** On Ubuntu/Debian, you can install both fonts in one shot:
+> ```bash
+> sudo apt install fonts-inter fonts-ibm-plex
+> ```
+> After installing, run `fc-cache -fv` to refresh the font cache. Confirmed working on Ubuntu 22.04 LTS.
