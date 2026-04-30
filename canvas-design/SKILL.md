@@ -48,10 +48,6 @@ To capture the VISUAL essence, express how the philosophy manifests through:
 - **Emphasize craftsmanship REPEATEDLY**: The philosophy MUST stress multiple times that the final work should appear as though it took countless hours to create, was labored over with care, and comes from someone at the absolute top of their field. This framing is essential - repeat phrases like "meticulously crafted," "the product of deep expertise," "painstaking attention," "master-level execution."
 - **Leave creative space**: Remain specific about the aesthetic direction, but concise enough that the next Claude has room to make interpretive choices also at a extremely high level of craftmanship.
 - **Default canvas size**: Unless the user specifies otherwise, target 2480x3508px (A4 at 300dpi) for print-ready output, or 1920x1080px for screen/digital work.
+- **Personal note**: I find that explicitly naming 2-3 color palette anchors in the philosophy (e.g., "deep ochre, ash white, and carbon black") dramatically improves the consistency of the visual output. Worth doing whenever the aesthetic direction implies a strong color identity.
 
-The philosophy must guide the next version to express ideas VISUALLY, not through text. Information lives in design, not paragraphs.
-
-### PHILOSOPHY EXAMPLES
-
-**"Concrete Poetry"**
-Philosophy: Communication through 
+The philosophy must guide the next version to express
