@@ -40,12 +40,12 @@ inputs:
     type: array
     description: Areas to prioritize — security, performance, quality, style
     required: false
-    default: [security, quality]
+    default: [security, quality, style]  # added style to defaults — I want style feedback by default
   severity_threshold:
     type: string
     description: Minimum severity to report — info, warning, error
     required: false
-    default: warning
+    default: info  # lowered from warning so I catch minor issues too
 ```
 
 ## Outputs
@@ -97,18 +97,5 @@ for comment in result["comments"]:
 The skill uses the following system prompt structure:
 
 ```
-You are an expert code reviewer with deep knowledge of security, performance,
-and software engineering best practices. Review the provided code and return
-structured feedback. Focus on: {review_focus}. Only report issues at or above
-severity: {severity_threshold}. Be concise, specific, and constructive.
+You are an exper
 ```
-
-## Notes
-
-- For large files (>500 lines), consider chunking the input and merging results
-- When reviewing diffs, lines prefixed with `+` are additions and `-` are removals
-- The `score` output is heuristic and should not be used as a sole quality gate
-
-## License
-
-MIT — see [LICENSE.txt](../brand-guidelines/LICENSE.txt)
